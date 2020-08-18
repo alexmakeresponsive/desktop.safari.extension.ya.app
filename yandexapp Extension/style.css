@@ -76,3 +76,39 @@
 {
     display: none !important;
 }
+
+
+
+
+/*yandex.ru/pogoda*/
+
+.b-page__container .content_compressed > div,
+.b-page__container .footer
+{
+    display: none !important;
+}
+
+.b-page__container .content_compressed > div.content__top,
+.b-page__container .content_compressed > div.content__row
+{
+    display: block !important;
+}
+
+.b-page__container .content_compressed
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b-page__container .content_compressed > div.content__top
+{
+    width: 80%;
+    margin: auto !important;
+    margin-bottom: 30px !important;
+}
+.b-page__container .content_compressed > div.content__row
+{
+    width: 80% !important;
+    margin: auto !important;
+}
+
