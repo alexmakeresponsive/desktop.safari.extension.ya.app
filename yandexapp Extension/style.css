@@ -1,0 +1,78 @@
+.button_theme_websearch .button__text
+{
+  border: 0 solid #f00 !important;
+  background-color: #f00 !important;
+  color: #fff !important;
+}
+
+.input_theme_websearch:before
+{
+  border-color: #f00 !important;
+}
+
+.mini-suggest__item_selected_yes
+{
+  background-color: rgba(200, 194, 194, 0.32) !important;
+}
+
+/*banners, news*/
+.container.container__first,
+.container.container__banner,
+.container.container__services,
+.row.rows__row.rows__row_last,
+.rows .rows__row_last,
+.services-new_position_default
+{
+    display: none !important;
+}
+/*widgets*/
+.widget_id_topnews,
+.widget_id_teaser
+{
+    display: none !important;
+}
+
+
+.desk-notif__wrapper .desk-notif > div
+{
+    display: none !important;
+}
+
+.desk-notif__wrapper .desk-notif > div:first-child
+{
+    display: block !important;
+}
+
+.desk-notif__wrapper .desk-notif
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ya-chat-widget.ya-chat-widget_desktop
+{
+    display: none !important;
+}
+
+.rows-wrapper .container,
+.rows-wrapper .rows
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1599.9px) and (min-width: 1200px)
+{
+    .headline
+    {
+        width: 806px !important;
+        margin-left: 232px !important;
+    }
+}
+
+.yabrowser-promo.home-arrow__promo
+{
+    display: none !important;
+}
